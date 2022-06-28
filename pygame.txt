@@ -1,0 +1,18 @@
+Pygame:- Pygame is a python library which is used for developing games & has four main components
+-Game Loops
+-Events
+-Sprites
+-Sounds
+
+
+1) Game Loop
+It is basically a while loop using which we can blit the Sprites infinitely.
+
+2) Sprites
+Sprites are objects, with different properties like height, width, color, etc., and methods like moving right, left, up and down, jump, etc
+
+3) Sounds
+Sounds which are provided when something is clicked.
+
+4) Events
+Events are actions performed by the user.
