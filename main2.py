@@ -15,7 +15,7 @@ fps = 60
 screen = pygame.display.set_mode((width, height))
 
 # Now loading the images; we have declared them as global variables
-background = pygame.image.load("Sprites/Background Image.png").convert_alpha()
+background = pygame.image.load("Sprites/Background Image3.webp").convert_alpha()
 Bird = pygame.image.load("Sprites/Bird.png").convert_alpha()
 pipe = pygame.image.load("Sprites/Pipe.png").convert_alpha()
 rotatedpipe = pygame.image.load("Sprites/rotated_pipe.png").convert_alpha()
@@ -95,8 +95,8 @@ class Game:
     def gameOver(self):
         if(self.iscollide()):
             self.isgameover = True
-            self.screenText("Game Over !",(255,255,255),450,200,50,"Century Gothic",bold=True)
-            self.screenText("Press Enter to play again",(255,255,255),450,400,48,"Century Gothic",bold=True)
+            self.screenText("Game Over !",(0,0,0),450,200,50,"Century Gothic",bold=True)
+            self.screenText("Press Enter to play again",(0,0,0),450,400,48,"Century Gothic",bold=True)
             self.pipevel = 0
             self.flap = 0
             self.rotateangle = -90
